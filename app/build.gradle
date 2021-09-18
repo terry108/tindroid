@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "co.tinode.tindroidx"
+        applicationId "com.huichats.tindroidx"
         minSdkVersion 21
         targetSdkVersion 29
         vectorDrawables.useSupportLibrary = true
@@ -39,10 +39,10 @@ android {
 
     buildTypes {
         debug {
-            resValue "string", "default_host_name", '"sandbox.tinode.co"'
+            resValue "string", "default_host_name", '"huichats.com"'
         }
         release {
-            resValue "string", "default_host_name", '"api.tinode.co"'
+            resValue "string", "default_host_name", '"huichats.com"'
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
